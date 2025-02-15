@@ -9,3 +9,7 @@ Deretter er utføringen ganske enkel:
 ```
 $ node bracket-check <path/to/file>
 ```
+
+Programmet inneholder to varianter for algoritmen: 
+- én linear med et støtte-array,
+- én rekursiv.
