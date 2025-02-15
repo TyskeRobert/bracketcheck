@@ -1,6 +1,6 @@
 # Bracket Check
 
-Dette programmet sjekker tekstinnholdet i et gitt dokument har korrekte åpnende og lukkende parentes.
+Dette programmet sjekker om tekstinnholdet i et gitt dokument har korrekte åpnende og lukkende parentes.
 
 Programmet utføres med NodeJS (installér dette først dersom du ikke har det).
 
