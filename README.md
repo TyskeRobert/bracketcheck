@@ -2,7 +2,7 @@
 
 Dette programmet sjekker om tekstinnholdet i et gitt dokument har korrekte åpnende og lukkende parentes.
 
-Programmet utføres med NodeJS (installér dette først dersom du ikke har det).
+Programmet utføres med [NodeJS](https://nodejs.org/en/download) (installér dette først dersom du ikke har det:).
 
 Deretter er utføringen ganske enkel:
 
