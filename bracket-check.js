@@ -22,16 +22,28 @@ function checkArray(str) {
     const openBrackets = [];
     for (let i = 0; i < str.length; i++) {
         const char = str[i];
+        /**
+         * Hvis karakteren er en åpen parentes, 
+         * legg den til i openBrackets
+         */
         if (Object.values(brackets).includes(char)) {
             openBrackets.push(char);
             continue;
         }
+        /**
+         * Hvis karateren er en lukket parentes,
+         * pop siste element fra openBrackets.
+         * Return false dersom de ikke passer sammen.
+         */
         if (brackets[char]) {
             if (brackets[char] != openBrackets.pop()) {
                 return false;
             }
         }
     }
+    /**
+     * Return true dersom loopen blir ferdig.
+     */
     return true;
 }
 
