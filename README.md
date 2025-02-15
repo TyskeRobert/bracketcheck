@@ -7,7 +7,7 @@ Programmet utføres med [NodeJS](https://nodejs.org/en/download) (installér det
 Deretter er utføringen ganske enkel:
 
 ```
-$ node bracket-check <path/to/file>
+$ node bracket-check.js <path/to/file>
 ```
 
 Programmet inneholder to varianter for algoritmen: 
